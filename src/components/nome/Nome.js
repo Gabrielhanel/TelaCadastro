@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TextInput, StyleSheet } from "react-native";
 
-class Pessoas extends Component {
+class Nome extends Component {
 
     constructor(props){
         super(props)
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
         padding: 10,
     }
 })
-export default Pessoas;
+export default Nome;
