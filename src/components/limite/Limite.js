@@ -13,14 +13,15 @@ class Limite extends Component {
         return (
             <View>
                 < Slider 
-                minimumValue={0} //valor minimo
-                maximumValue={100} // valor max
+                minimumValue={1} //valor minimo
+                maximumValue={50000} // valor max
                 minimumTrackTintColor="#007AFF" //cor da linha atrás da bolinha
                 maximumTrackTintColor="#FF4500" //cor na frente da bolinha
                 onValueChange={(valorSelecionado) => this.setState({valor: valorSelecionado})}
                 value={this.state.valor}
                 />
-                <Text>{this.state.valor.toFixed(0)}</Text>
+                <Text style={{textAlign: 'center', fontSize: 20
+                }}>{this.state.valor.toFixed(0)}</Text>
             </View>
         )
     }
