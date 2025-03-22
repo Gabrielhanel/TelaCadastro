@@ -12,7 +12,7 @@ class Idade extends Component {
   InputNumerico = (idadePessoa) => {
     const idadeNumerica = parseInt(idadePessoa) || 0; //converte o valor digitado pelo usuario em numero inteiro usando usando parseInt(idadePessoa)
 
-    if (idadeNumerica <= 0 || idadeNumerica >= 115) {
+    if (idadeNumerica >= 115) {
       Alert.alert("Erro", "Digite uma idade válida!");
     } else {
       this.setState({ idade: idadeNumerica });

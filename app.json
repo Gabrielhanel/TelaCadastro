@@ -2,7 +2,7 @@
   "expo": {
     "name": "TelaCadastro",
     "slug": "TelaCadastro",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -33,6 +33,12 @@
       "eas": {
         "projectId": "91d559b5-d213-44a9-bed1-2e4d68e6981c"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/91d559b5-d213-44a9-bed1-2e4d68e6981c"
     }
   }
 }
